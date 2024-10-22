@@ -1,0 +1,47 @@
+/* styles_palette6.css */
+body {
+    background-color: #e0f7fa;
+    color: #006064;
+}
+
+h1, h2 {
+    color: #006064;
+}
+
+a {
+    color: #17a2b8;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#card {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 5px 15px 4px;
+}
+#card:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 20px 8px;
+    transition: 1s;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.carousel-inner img {
+    border-radius: 10px;
+    object-fit: cover;
+    height: 400px;
+}
+
+footer {
+    color: #e0f7fa;
+}
